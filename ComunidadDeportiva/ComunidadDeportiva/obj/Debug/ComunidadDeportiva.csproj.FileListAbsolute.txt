@@ -1,0 +1,50 @@
+c:\users\oliver\documents\visual studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\ComunidadDeportiva.dll
+c:\users\oliver\documents\visual studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\ComunidadDeportiva.pdb
+c:\users\oliver\documents\visual studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\obj\Debug\ResolveAssemblyReference.cache
+c:\users\oliver\documents\visual studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\obj\Debug\ComunidadDeportiva.dll
+c:\users\oliver\documents\visual studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\obj\Debug\ComunidadDeportiva.pdb
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\ComunidadDeportiva.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\ComunidadDeportiva.pdb
+F:\ComunidadDeportiva\ComunidadDeportiva\obj\Debug\ResolveAssemblyReference.cache
+F:\ComunidadDeportiva\ComunidadDeportiva\obj\Debug\ComunidadDeportiva.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\obj\Debug\ComunidadDeportiva.pdb
+E:\ComunidadDeportiva\ComunidadDeportiva\bin\ComunidadDeportiva.dll
+E:\ComunidadDeportiva\ComunidadDeportiva\bin\ComunidadDeportiva.pdb
+E:\ComunidadDeportiva\ComunidadDeportiva\obj\Debug\ResolveAssemblyReference.cache
+E:\ComunidadDeportiva\ComunidadDeportiva\obj\Debug\ComunidadDeportiva.dll
+E:\ComunidadDeportiva\ComunidadDeportiva\obj\Debug\ComunidadDeportiva.pdb
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\AjaxControlToolkit.dll
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\AjaxControlToolkit.pdb
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\OLIVER\Documents\Visual Studio 2010\Projects\ComunidadDeportiva\ComunidadDeportiva\bin\zh-CHT\AjaxControlToolkit.resources.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\AjaxControlToolkit.pdb
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\ar\AjaxControlToolkit.resources.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\cs\AjaxControlToolkit.resources.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\de\AjaxControlToolkit.resources.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\es\AjaxControlToolkit.resources.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\fr\AjaxControlToolkit.resources.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\he\AjaxControlToolkit.resources.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\hi\AjaxControlToolkit.resources.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\it\AjaxControlToolkit.resources.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\ja\AjaxControlToolkit.resources.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\ko\AjaxControlToolkit.resources.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\nl\AjaxControlToolkit.resources.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\pt\AjaxControlToolkit.resources.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\ru\AjaxControlToolkit.resources.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\tr-TR\AjaxControlToolkit.resources.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\zh-CHS\AjaxControlToolkit.resources.dll
+F:\ComunidadDeportiva\ComunidadDeportiva\bin\zh-CHT\AjaxControlToolkit.resources.dll

@@ -1,0 +1,116 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EstaEsMiLiga.master.cs" Inherits="ComunidadDeportiva.EstaEsMiLiga" %>
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="Estilo.css" rel="stylesheet" type="text/css" />
+    <title><asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <asp:Panel ID="PnlPage" runat="server" CssClass="page">
+            <div class="logoPrincipal">
+                <asp:Image ID="ImgLogo" runat="server" ImageUrl="~/imagenes/logo.png" />
+            </div>
+            <asp:Panel ID="PnlCapaMenu" runat="server" CssClass="clear capaMenu">
+                <div class="menu">
+                    <div class="nombreApagar">
+                        <div class="apagar">
+                            <asp:ImageButton ID="BtnCerrarSesion" runat="server" 
+                                ImageUrl="~/imagenes/cerrarsesion.png" ToolTip="Cerrar sesión" 
+                                onclick="BtnCerrarSesion_Click" Width="32px" Height="32px"/>
+                        </div>
+                        <div class="nombre">
+                            <asp:Label ID="Label1" runat="server" Text="Bienvenido,"></asp:Label>
+                            <asp:Label ID="LblUsuario" runat="server"></asp:Label>
+                        </div>
+                    </div>
+                    <asp:Menu ID="MenuPrincipal" runat="server" Orientation="Horizontal"
+                        EnableViewState="false" IncludeStyleBlock="false">
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/menuPrincipal/Noticias.aspx" Text="Noticias" />
+                            <asp:MenuItem Text="Ligas">
+                                <asp:MenuItem NavigateUrl="~/menuPrincipal/LigaBBVA.aspx" Text="Liga BBVA" />
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/menuPrincipal/Selecciones.aspx" Text="Selecciones"/>
+                            <asp:MenuItem NavigateUrl="~/menuPrincipal/Ocio.aspx" Text="Ocio"/>
+                            <asp:MenuItem NavigateUrl="~/menuPrincipal/MisDatos.aspx" Text="Mis Datos"/>
+                            <asp:MenuItem NavigateUrl="~/menuPrincipal/Contacta.aspx" Text="Contacta"/>
+                        </Items>
+                    </asp:Menu>
+                </div>
+            </asp:Panel>
+            <div class="menuIzquierda">
+            <asp:Panel ID="PnlMenuIzquierda" runat="server" CssClass="panelMenuIzquierda">
+                    <div class="dentroMenuIzquierda">
+                        <h3><asp:Label ID="LblNombreEquipo" runat="server"
+                        onprerender="LblNombreEquipo_PreRender"></asp:Label></h3>
+                    </div>
+                    <ul> 
+                    <li>
+                        <asp:HyperLink ID="HprDatos" runat="server" Text="Datos" 
+                            NavigateUrl="~/EEML/Datos.aspx"></asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="HprClasificacion" runat="server" Text="Clasificación" 
+                            NavigateUrl="~/EEML/Clasificacion.aspx"></asp:HyperLink>
+                    </li>
+                    <li>
+                    <asp:HyperLink ID="HprJugadores" runat="server" Text="Jugadores" 
+                            NavigateUrl="~/EEML/Jugadores.aspx"></asp:HyperLink>
+                    </li>
+                    <li>
+                    <asp:HyperLink ID="HprFichar" runat="server" Text="Fichar" 
+                            NavigateUrl="~/EEML/Fichar.aspx"></asp:HyperLink>
+                    </li>
+                </ul>
+                </asp:Panel>
+            </div>
+            <div class="menuDerecha">
+                <asp:Panel ID="PnlMenuDerecha" runat="server" CssClass="panelMenuDerecha">
+                    <div class="dentroMenuIzquierda">
+                        <h3><asp:Label ID="Label2" runat="server" Text="Ayuda"></asp:Label></h3>
+                    </div>
+                    <div class="dentroMenuDerecha">
+                        <asp:HyperLink ID="HprManual" runat="server" NavigateUrl="~/menuDerecha/ManualEEML.aspx" Text="Esta es mi liga"></asp:HyperLink>
+                    </div>
+                </asp:Panel>
+            </div>
+
+            <asp:Panel ID="PnlPantalla" runat="server" CssClass="pantalla">
+                <div class="contenidoPantalla">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </asp:Panel>
+        </asp:Panel>
+        <asp:RoundedCornersExtender ID="RndPage" runat="server"
+            TargetControlID="PnlPage"
+            Radius="10"
+            Corners="All" BorderColor="LightGray" />
+        <asp:RoundedCornersExtender ID="RndPMIzquierda" runat="server"
+            TargetControlID="PnlMenuIzquierda"
+            Radius="10"
+            Corners="All" BorderColor="LightGray" />
+
+        <asp:RoundedCornersExtender ID="RndPMDerecha" runat="server"
+            TargetControlID="PnlMenuDerecha"
+            Radius="10"
+            Corners="All" BorderColor="LightGray" />
+
+        <asp:RoundedCornersExtender ID="RndPantalla" runat="server"
+            TargetControlID="PnlPantalla"
+            Radius="10"
+            Corners="All" BorderColor="LightGray"/>
+        <asp:RoundedCornersExtender ID="RndMenuPrincipal" runat="server"
+            TargetControlID="PnlCapaMenu"
+            Radius="10"
+            Corners="All" BorderColor="LightGray"/>
+    </form>
+</body>
+</html>

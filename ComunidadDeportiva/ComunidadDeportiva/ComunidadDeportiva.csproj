@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{49D3DCD5-A6E8-412A-BD65-44C0A43108CA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ComunidadDeportiva</RootNamespace>
+    <AssemblyName>ComunidadDeportiva</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\AjaxControlToolkit.Binary.NET4\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EEML\Clasificacion.aspx" />
+    <Content Include="EEML\Datos.aspx" />
+    <Content Include="EEML\Fichar.aspx" />
+    <Content Include="EEML\Jugadores.aspx" />
+    <Content Include="EEML\RegistroEquipo.aspx" />
+    <Content Include="escudos\athleticdebilbao.png" />
+    <Content Include="escudos\atleticodemadrid.png" />
+    <Content Include="escudos\barcelona.png" />
+    <Content Include="escudos\betis.png" />
+    <Content Include="escudos\espanyol.png" />
+    <Content Include="escudos\getafe.png" />
+    <Content Include="escudos\granada.png" />
+    <Content Include="escudos\levante.png" />
+    <Content Include="escudos\malaga.png" />
+    <Content Include="escudos\mallorca.png" />
+    <Content Include="escudos\osasuna.png" />
+    <Content Include="escudos\racingdesantander.png" />
+    <Content Include="escudos\rayovallecano.png" />
+    <Content Include="escudos\realmadrid.png" />
+    <Content Include="escudos\realsociedad.png" />
+    <Content Include="escudos\seleccionalemana.png" />
+    <Content Include="escudos\seleccionespañola.png" />
+    <Content Include="escudos\seleccioninglesa.png" />
+    <Content Include="escudos\seleccionportuguesa.png" />
+    <Content Include="escudos\sevilla.png" />
+    <Content Include="escudos\sportingdegijon.png" />
+    <Content Include="escudos\valencia.png" />
+    <Content Include="escudos\villarreal.png" />
+    <Content Include="escudos\zaragoza.png" />
+    <Content Include="FotosEquipos\levante1.jpg" />
+    <Content Include="FotosEquipos\levante0.jpg" />
+    <Content Include="FotosEquipos\realmadrid1.jpg" />
+    <Content Include="FotosJugadores\adan.jpg" />
+    <Content Include="FotosJugadores\alvaroarbeloa.jpg" />
+    <Content Include="FotosJugadores\ballesteros.jpg" />
+    <Content Include="FotosJugadores\benzema.jpg" />
+    <Content Include="FotosJugadores\caicedo.jpg" />
+    <Content Include="FotosJugadores\carvalho.jpg" />
+    <Content Include="FotosJugadores\casillas.jpg" />
+    <Content Include="FotosJugadores\cerra.jpg" />
+    <Content Include="FotosJugadores\cristianoronaldo.jpg" />
+    <Content Include="FotosJugadores\delhorno.jpg" />
+    <Content Include="FotosJugadores\dimaria.jpg" />
+    <Content Include="FotosJugadores\granero.jpg" />
+    <Content Include="FotosJugadores\higuain.jpg" />
+    <Content Include="FotosJugadores\iborra.jpg" />
+    <Content Include="FotosJugadores\javiventa.jpg" />
+    <Content Include="FotosJugadores\juanfran.jpg" />
+    <Content Include="FotosJugadores\juanlu.jpg" />
+    <Content Include="FotosJugadores\kaka.jpg" />
+    <Content Include="FotosJugadores\khedira.jpg" />
+    <Content Include="FotosJugadores\larrea.jpg" />
+    <Content Include="FotosJugadores\manoloreina.jpg" />
+    <Content Include="FotosJugadores\marcelo.jpg" />
+    <Content Include="FotosJugadores\munua.jpg" />
+    <Content Include="FotosJugadores\nano.jpg" />
+    <Content Include="FotosJugadores\ozil.jpg" />
+    <Content Include="FotosJugadores\pallardo.jpg" />
+    <Content Include="FotosJugadores\pepe.jpg" />
+    <Content Include="FotosJugadores\rafa.jpg" />
+    <Content Include="FotosJugadores\raulalbiol.jpg" />
+    <Content Include="FotosJugadores\robuste.jpg" />
+    <Content Include="FotosJugadores\rodas.jpg" />
+    <Content Include="FotosJugadores\sergioramos.jpg" />
+    <Content Include="FotosJugadores\stuani.jpg" />
+    <Content Include="FotosJugadores\valdo.jpg" />
+    <Content Include="FotosJugadores\victorvaldes.jpg" />
+    <Content Include="FotosJugadores\xabialonso.jpg" />
+    <Content Include="FotosJugadores\xavitorres.jpg" />
+    <Content Include="FotosJugadores\xisconadal.jpg" />
+    <Content Include="imagenes\balonPrincipal.png" />
+    <Content Include="imagenes\cargando.gif" />
+    <Content Include="imagenes\cerrarsesion.png" />
+    <Content Include="imagenes\cesped.jpg" />
+    <Content Include="imagenes\escribir.png" />
+    <Content Include="imagenes\estaesmiliga.png" />
+    <Content Include="imagenes\imagenEEML.jpg" />
+    <Content Include="imagenes\logoPrincipal.png" />
+    <Content Include="imagenes\logo.png" />
+    <Content Include="imagenes\nuevo.jpg" />
+    <Content Include="imagenes\premioPrincipal.png" />
+    <Content Include="imagenes\socialPrincipal.png" />
+    <Content Include="menuDerecha\Manual.aspx" />
+    <Content Include="menuDerecha\ManualEEML.aspx" />
+    <Content Include="menuIzquierda\Comentarios.aspx" />
+    <Content Include="menuIzquierda\Foro.aspx" />
+    <Content Include="menuIzquierda\Galeria.aspx" />
+    <Content Include="menuIzquierda\Jugadores.aspx" />
+    <Content Include="menuPrincipal\ArchivoNoticias.aspx" />
+    <Content Include="menuPrincipal\Contacta.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Estilo.css" />
+    <Content Include="Global.asax" />
+    <Content Include="FotosEquipos\realmadrid0.jpg" />
+    <Content Include="menuPrincipal\LigaBBVA.aspx" />
+    <Content Include="menuPrincipal\MisDatos.aspx" />
+    <Content Include="menuPrincipal\Noticias.aspx" />
+    <Content Include="menuPrincipal\Ocio.aspx" />
+    <Content Include="menuPrincipal\Selecciones.aspx" />
+    <Content Include="RegistroUsuario.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EEML\Clasificacion.aspx.cs">
+      <DependentUpon>Clasificacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EEML\Clasificacion.aspx.designer.cs">
+      <DependentUpon>Clasificacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EEML\Datos.aspx.cs">
+      <DependentUpon>Datos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EEML\Datos.aspx.designer.cs">
+      <DependentUpon>Datos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EEML\Fichar.aspx.cs">
+      <DependentUpon>Fichar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EEML\Fichar.aspx.designer.cs">
+      <DependentUpon>Fichar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EEML\Jugadores.aspx.cs">
+      <DependentUpon>Jugadores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EEML\Jugadores.aspx.designer.cs">
+      <DependentUpon>Jugadores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EEML\RegistroEquipo.aspx.cs">
+      <DependentUpon>RegistroEquipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EEML\RegistroEquipo.aspx.designer.cs">
+      <DependentUpon>RegistroEquipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EstaEsMiLiga.Master.cs">
+      <DependentUpon>EstaEsMiLiga.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EstaEsMiLiga.Master.designer.cs">
+      <DependentUpon>EstaEsMiLiga.Master</DependentUpon>
+    </Compile>
+    <Compile Include="menuDerecha\Manual.aspx.cs">
+      <DependentUpon>Manual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuDerecha\Manual.aspx.designer.cs">
+      <DependentUpon>Manual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuDerecha\ManualEEML.aspx.cs">
+      <DependentUpon>ManualEEML.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuDerecha\ManualEEML.aspx.designer.cs">
+      <DependentUpon>ManualEEML.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuIzquierda\Comentarios.aspx.cs">
+      <DependentUpon>Comentarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuIzquierda\Comentarios.aspx.designer.cs">
+      <DependentUpon>Comentarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuIzquierda\Foro.aspx.cs">
+      <DependentUpon>Foro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuIzquierda\Foro.aspx.designer.cs">
+      <DependentUpon>Foro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuIzquierda\Galeria.aspx.cs">
+      <DependentUpon>Galeria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuIzquierda\Galeria.aspx.designer.cs">
+      <DependentUpon>Galeria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuIzquierda\Jugadores.aspx.cs">
+      <DependentUpon>Jugadores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuIzquierda\Jugadores.aspx.designer.cs">
+      <DependentUpon>Jugadores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuPrincipal\ArchivoNoticias.aspx.cs">
+      <DependentUpon>ArchivoNoticias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuPrincipal\ArchivoNoticias.aspx.designer.cs">
+      <DependentUpon>ArchivoNoticias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuPrincipal\Contacta.aspx.cs">
+      <DependentUpon>Contacta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuPrincipal\Contacta.aspx.designer.cs">
+      <DependentUpon>Contacta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="menuPrincipal\LigaBBVA.aspx.cs">
+      <DependentUpon>LigaBBVA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuPrincipal\LigaBBVA.aspx.designer.cs">
+      <DependentUpon>LigaBBVA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuPrincipal\MisDatos.aspx.cs">
+      <DependentUpon>MisDatos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuPrincipal\MisDatos.aspx.designer.cs">
+      <DependentUpon>MisDatos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuPrincipal\Noticias.aspx.cs">
+      <DependentUpon>Noticias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuPrincipal\Noticias.aspx.designer.cs">
+      <DependentUpon>Noticias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuPrincipal\Ocio.aspx.cs">
+      <DependentUpon>Ocio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuPrincipal\Ocio.aspx.designer.cs">
+      <DependentUpon>Ocio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="menuPrincipal\Selecciones.aspx.cs">
+      <DependentUpon>Selecciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuPrincipal\Selecciones.aspx.designer.cs">
+      <DependentUpon>Selecciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroUsuario.aspx.cs">
+      <DependentUpon>RegistroUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistroUsuario.aspx.designer.cs">
+      <DependentUpon>RegistroUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EstaEsMiLiga.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59070</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

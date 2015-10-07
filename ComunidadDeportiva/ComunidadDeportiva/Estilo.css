@@ -1,0 +1,450 @@
+﻿html, body, form
+{
+}
+
+textarea
+{
+    resize:none;
+}
+
+body
+{
+    background-color: #FFFFFF;
+    margin: 0px auto;
+    padding: 0px;
+    width: 1000px;
+}
+
+.bodyDefault
+{
+    background: #4E7BC8;
+    margin: 0px auto;
+    padding: 0px;
+    width: 1000px;
+}
+
+.logoPrincipal
+{
+    vertical-align:middle;
+}
+
+.listaPrincipal
+{
+    float:right;
+    padding-right:60px;
+    position:relative;
+}
+
+.textoListaPrincipal
+{
+    color: #FFFFFF;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.botonPrincipal
+{
+    background-color: #4E7BC8;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.page
+{
+    height: auto;
+    width: 1000px;
+    min-width: 1000px;
+    background-color: #E1E1E1;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    position:absolute;
+    /*min-height: 1000px;*/
+    /*height:auto;*/
+}
+
+.texto
+{
+    text-align: justify;
+}
+
+.menuIzquierda
+{
+    background-color: #E1E1E1;
+    height: 100%;
+    float: left;
+    width: 18%;
+    position: relative;
+}
+
+.panelMenuIzquierda
+{
+    background-color: #FFFFFF;
+    position:relative;
+    margin: 10px 10px 0px 0px;
+}
+
+.panelMenuDerecha
+{
+    background-color: #FFFFFF;
+    position:relative;
+    margin: 10px 0px 0px 10px;
+}
+
+.menuIzquierda ul, li
+{
+    list-style-type: none;
+    margin-top: 0px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.menuIzquierda ul, li a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.menuIzquierda ul, li a:hover
+{
+    text-decoration: underline;
+    color: #4E7BC8;
+}
+
+.menuIzquierda ul, li a:active
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.dentroMenuDerecha
+{
+    padding: 10px 10px 10px 20px;
+}
+
+.dentroMenuDerecha a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.dentroMenuDerecha a:hover
+{
+    text-decoration: underline;
+    color: #4E7BC8;
+}
+
+.dentroMenuDerecha a:active
+{
+    text-decoration: underline;
+    color: #4E7BC8;
+}
+
+.posicionLista
+{
+    margin-left: -10px;
+}
+
+.dentroMenuIzquierda
+{
+    margin: 5px 0px 0px 10px;
+    color: #213D6B;
+}
+
+.dentroMenuIzquierda h3
+{
+    margin-bottom:0px; 
+}
+
+
+.menuDerecha
+{
+    background-color: #E1E1E1;
+    height: 100%;
+    float: right;
+    width: 18%;
+    position: relative;
+}
+
+.pantalla
+{
+    background-color: #FFFFFF;
+    height: auto;
+    min-height:550px;
+    width: 64%;
+    position: relative;
+    margin-right: 18%;
+    margin-left: 18%;
+    margin-top:10px;
+    z-index: 0;
+}
+
+.contenidoPantalla
+{
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    max-width: 100%;
+}
+
+.comentario
+{
+    padding: 0px 10px 10px 10px;
+    max-width:600px;
+    width: 600px;
+    min-width: 600px;
+    position:relative;
+}
+
+.conjuntoComentario
+{
+    background-color: #FDE69F;
+}
+
+.conjuntoJugador
+{
+    background-color: #B9FFAE;
+}
+
+.ajustarComentarioTotal
+{
+    padding-bottom: 20px;
+}
+
+.tituloContenido
+{
+    color: #3867B4;
+    font-weight: bold;
+    font-size: large;
+    padding: 5px 5px 0px 5px;
+}
+
+.tituloContenido a
+{
+    color: #4E7BC8;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+}
+
+.tituloContenido a:active
+{
+    color: #4E7BC8;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+}
+
+.tituloContenido a:hover
+{
+    color: #213D6B;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+}
+
+.descripcionContenido
+{
+    margin: auto 5px 30px 5px;
+}
+
+.tituloPantalla
+{
+    font-size: xx-large;
+    color: #213D6B;
+    font-weight: bold;
+    position:relative;
+    width:100%;
+    height: 80px;
+}
+
+.centrarImagen
+{
+    padding-left:10%;
+    padding-right:10%;
+}
+
+.centrarTitulo
+{
+    margin-bottom:20px;
+    margin-top:20px;
+    width:auto;
+    float:left;
+}
+
+.imagenTitulo
+{
+    float: left;
+}
+
+.nombreTema
+{
+    font-size: x-large;
+    color: #213D6B;
+    font-weight: bold;
+    padding-left: 20px;
+    
+}
+
+.enlaceOcio a:hover
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.enlaceOcio a:active
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.enlaceOcio a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.textoEnlace
+{
+    margin-left: 15px;
+}
+
+.capaContraseña
+{
+    background-color: #FFFF8A;
+    border-color: #FDBE48;
+    height:300px;
+}
+
+.dentroCapaContraseña
+{
+    margin: 20px 20px 20px 20px;
+}
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+.nombre
+{
+    margin: 5px 40px auto auto;
+    color: #FFFFFF;
+}
+
+.apagar
+{
+    float:right;
+}
+
+.nombreApagar
+{
+    float: right;
+    position: relative;
+    height: 31px;
+    font-size: 1.3em;
+}
+
+.capaMenu
+{
+    background:#4E7BC8;
+    height:31px;
+}
+
+.menu
+{
+	background: #4E7BC8;
+	margin-left: 8px;
+    margin-right: 8px;
+}
+
+.menu a
+{
+	font-size: 1.3em;
+}
+
+.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    z-index:10000;
+}
+
+
+.menu ul li a
+{
+    background: #4E7BC8;
+    color: #FFFFFF;
+    display: block;
+    line-height: 1em;
+    padding: 5px 15px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.menu ul li a:hover
+{
+    background: #A2BAE1;
+    color: #4E7BC8;
+    text-decoration: none;
+}
+
+.menu ul li a:active
+{
+    background: #A2BAE1;
+    color: #005f8b;
+    text-decoration: none;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.capaTotalVisible
+{
+    
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.dentroTotalVisible
+{
+    border: 1px solid red;
+    background-color: #FFC964;
+    position: relative;
+    padding: 10px 10px 10px 10px;
+}
+
+.botonesTotalVisible
+{
+    padding: 10px 0px 0px 0px;
+}
+
+/*----------------REGISTRO-----------------*/
+.Entrar
+{
+    vertical-align:middle;
+    position:relative; 
+}
+
+.registroUsuario
+{
+    padding-left:300px;
+    padding-top:50px;
+}
+
+.botonRegistrar
+{
+    padding-left:90px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+/******************************************************/
+.fechaComentario
+{
+    float:right;
+}
